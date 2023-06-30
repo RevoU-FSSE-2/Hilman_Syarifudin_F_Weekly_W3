@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;1,300;1,400;1,500;1,600&family=Tsukimi+Rounded:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: "Tsukimi Rounded";
+    src: url(../Font/TsukimiRounded-Medium.ttf) format("truetype");
+}
 
 
 :root{
@@ -10,8 +13,6 @@
     --dark-mode:rgb(141, 237, 211);
     --brown-color:rgb(191, 103, 102);
 }
-
-
 
 /* CSS RESET */
 *{
@@ -390,6 +391,10 @@ filter: grayscale(0) blur(0);
 /* END GRID GALLERY */
 
 /* HEADLAMP GALLERY */
+
+.headlamp-gallery{
+    background-image: url(../img/Background.webp);
+}
 
 .headlamp-gallery p{
     text-align: center;
