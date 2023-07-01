@@ -577,7 +577,7 @@ filter: grayscale(0) blur(0);
 #contact-me{
     background-image: url(../img/Background.webp);
     background-size:cover;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
