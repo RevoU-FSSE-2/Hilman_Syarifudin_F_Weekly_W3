@@ -392,10 +392,6 @@ filter: grayscale(0) blur(0);
 
 /* HEADLAMP GALLERY */
 
-.headlamp-gallery{
-    background-image: url(../img/Background.webp);
-}
-
 .headlamp-gallery p{
     text-align: center;
     font-size: 20px;
@@ -577,6 +573,12 @@ filter: grayscale(0) blur(0);
 /*END CAROUSEL GALLERY */
 
 /* START FORM AND CONTACT */
+
+#join-sbdc{
+    background-image: url(../img/Background.webp);
+    background-size:cover;
+    background-position: center;
+}
 
 .contact-sbdc
 {
