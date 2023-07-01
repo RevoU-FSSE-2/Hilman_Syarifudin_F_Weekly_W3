@@ -574,10 +574,11 @@ filter: grayscale(0) blur(0);
 
 /* START FORM AND CONTACT */
 
-#join-sbdc{
+#contact-me{
     background-image: url(../img/Background.webp);
     background-size:cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contact-sbdc
